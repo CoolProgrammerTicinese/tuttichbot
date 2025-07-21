@@ -1,0 +1,8 @@
+name: tutti-notifier
+routes:
+  - path: /
+    type: web
+    command: ./start.sh
+build:
+  steps:
+    - pip install -r requirements.txt
